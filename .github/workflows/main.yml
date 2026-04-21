@@ -19,15 +19,15 @@ jobs:
 
     - name: Install backend dependencies
       run: |
-        cd backend
+        cd HomeVista/backend
         npm install
 
     - name: Install frontend dependencies
       run: |
-        cd frontend/vite-project
+        cd HomeVista/frontend/vite-project
         npm install
 
     - name: Build frontend
       run: |
-        cd frontend/vite-project
+        cd HomeVista/frontend/vite-project
         npm run build
